@@ -1,0 +1,57 @@
+html {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(173, 216, 230, 0.4);
+}
+
+#mainHeader {
+	border: 10px double lightblue;
+	text-align: center;
+	font-family: 'Kanit', monospace;
+	font-size: 100px;
+	margin: -5px;
+}
+
+#minigame {
+	border: 10px double lightblue;
+	margin: auto;
+	margin-top: 75px;
+	width: 1024px;
+	height: 512px;
+}
+
+#minigamePanel {
+	width: 1024px;
+	height: 512px;
+}
+
+#cutsceneImages {
+	width: 1024px;
+	height: 512px;
+}
+
+#caption {
+	font-family: 'Kanit', monospace;
+	font-size: 20px;
+	text-align: center;
+}
+
+#next {
+	position: relative;
+	display: block;
+	bottom: 10%;
+	left: 90%;
+
+	width: 95px;
+	height: 40px;
+
+	background-color: lightcyan;
+	border: solid 4px darkcyan;
+
+	transition: background-color 0.2s, transform 0.2s;
+}
+
+#next:hover {
+	background-color: #a9dada;
+	transform: scale(1.05);
+}
