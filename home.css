@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+	background-color: rgba(255, 165, 0, 0.4);
+}
+
+#sections {
+	display: flex;
+	margin: -10px;
+
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#mainHeader {
+	border: 10px double orange;
+	text-align: center;
+	font-family: 'Kanit', monospace;
+	font-size: 100px;
+	margin: -5px;
+}
+
+.sectionHeader {
+	border: thick dashed orange;
+	font-family: 'Kanit', monospace;
+	background-color: rgba(255, 180, 128, 0.6);
+	font-size: 35px;
+
+	padding: 3px;
+	
+	display: inline-block;
+
+	transition: transform 0.2s, background-color 0.2s;
+}
+
+.sectionHeader:hover {
+	background-color: rgba(255, 180, 128, 1);
+	transform: scale(1.1);
+}
+
+.button {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+
+	padding: 6px;
+
+	text-decoration: none;
+	color: initial;
+}
