@@ -76,3 +76,8 @@ html {
 	border: solid black 3px;
 	background-color: lightblue
 }
+
+#homeIcon {
+	width: 27.5px;
+	height: 27.5px;
+}
