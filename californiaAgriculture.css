@@ -4,6 +4,10 @@ html {
 	background-color: #CFFDBC;
 }
 
+#interBox {
+	border: 5px solid green;
+}
+
 #mainHeader {
 	border: 10px double lightgreen;
 	text-align: center;
