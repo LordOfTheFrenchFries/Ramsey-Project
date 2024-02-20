@@ -1,1 +1,19 @@
+html {
+	height: 100%;
+	width: 100%;
+	background-color: #CFFDBC;
+}
 
+#mainHeader {
+	border: 10px double lightgreen;
+	text-align: center;
+	font-family: 'Kanit', monospace;
+	font-size: 100px;
+	margin: -5px;
+}
+
+#caption {
+	font-family: 'Kanit', monospace;
+	font-size: 20px;
+	text-align: center;
+}
