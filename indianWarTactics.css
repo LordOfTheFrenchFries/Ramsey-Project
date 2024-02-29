@@ -18,3 +18,7 @@ html {
 
 	transition: transform 0.2s;
 }
+
+.image:hover {
+	transform: scale(1.02);
+}
