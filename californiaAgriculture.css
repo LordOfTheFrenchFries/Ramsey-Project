@@ -20,6 +20,12 @@ html {
 	height: 128px;
 }
 
+#hoverTextHeader {
+	font-family: 'Kanit', monospace;
+	font-size: 20px;
+	text-align: center;
+}
+
 #mainHeader {
 	border: 10px double lightgreen;
 	text-align: center;
@@ -41,6 +47,6 @@ html {
 
 #caption {
 	font-family: 'Kanit', monospace;
-	font-size: 20px;
+	font-size: 15px;
 	text-align: center;
 }
