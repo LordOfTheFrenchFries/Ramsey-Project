@@ -32,6 +32,10 @@ html {
 	height: 510px;
 }
 
+.image:hover {
+	
+}
+
 #caption {
 	font-family: 'Kanit', monospace;
 	font-size: 20px;
