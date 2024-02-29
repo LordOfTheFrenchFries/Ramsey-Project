@@ -6,7 +6,7 @@ html {
 
 #interBox {
 	border: 5px solid green;
-	align: center;
+	margin: auto;
 
 	width: 1024px;
 	height: 512px;
@@ -14,6 +14,7 @@ html {
 
 #hoverText {
 	border: 5px solid green;
+	margin: auto;
 
 	width: 1024px;
 	height: 128px;
