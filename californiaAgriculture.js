@@ -14,3 +14,11 @@ function mouseOverFarm() {
 function mouseOutFarm() {
   header.innerHTML = "Hover Over Something";
 }
+
+function mouseOverCow() {
+  header.innerHTML = "Ranching:";
+}
+
+function mouseOutCow() {
+  header.innerHTML = "Hover Over Something";
+}
