@@ -9,7 +9,7 @@ farm.addEventListener(
   "mouseenter",
   (event) => {
     // highlight the mouseenter target
-    .target.text = "wassup";
+    header.innerHTML = "wassup";
   },
   false,
 );
