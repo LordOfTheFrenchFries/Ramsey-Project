@@ -12,5 +12,5 @@ function mouseOverFarm() {
 }
 
 function mouseOutFarm() {
-  header.innetHTML = "Hover Over Something";
+  header.innerHTML = "Hover Over Something";
 }
