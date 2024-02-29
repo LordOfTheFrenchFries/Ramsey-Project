@@ -7,4 +7,10 @@ document.getElementById("Cow").onmouseout = function() {mouseOutCow()};
 const header = document.getElementById("hoverTextHeader");
 const text = document.getElementById("hoverTextCaption");
 
-function mouseOverFarm
+function mouseOverFarm() {
+  header.innerHTML = "Farming:";
+}
+
+function mouseOutFarm() {
+  header.innetHTML = "Hover Over Something";
+}
