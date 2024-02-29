@@ -50,3 +50,9 @@ html {
 	font-size: 15px;
 	text-align: center;
 }
+
+#hoverTextCaption {
+	font-family: 'Kanit', monospace;
+	font-size: 15px;
+	text-align: center;
+}
