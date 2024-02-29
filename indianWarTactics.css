@@ -20,7 +20,7 @@ html {
 }
 
 .image:hover {
-	transform: scale(1.05);
+	transform: scale(1.02);
 }
 
 #back {
@@ -33,6 +33,6 @@ html {
 	font-size: 15px;
 	text-align: center;
 	position: absolute;
-  	top: 8px;
-  	left: 16px;
+  	top: 90px;
+  	left: 392px;
 }
