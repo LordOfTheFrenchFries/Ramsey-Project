@@ -35,7 +35,7 @@ html {
 }
 
 .image:hover {
-	transform.s
+	transform: scale(1.2);
 }
 
 #caption {
