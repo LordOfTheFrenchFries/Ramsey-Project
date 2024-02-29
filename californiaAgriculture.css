@@ -30,10 +30,12 @@ html {
 .image {
 	width: 510px;
 	height: 510px;
+
+	transition: transform 0.2s;
 }
 
 .image:hover {
-	
+	transform.s
 }
 
 #caption {
