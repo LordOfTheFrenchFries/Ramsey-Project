@@ -1,15 +1,5 @@
-const farm = document.getElementById("Farm");
-const cow = document.getElementById("Cow");
+document.getElementById("Farm").onmouseover = function() {mouseOverFarm()};
+document.getElementById("Farm").onmouseout = function() {mouseOutFarm()};
 
-const header = document.getElementById("hoverTextHeader");
-
-// This handler will be executed only once when the cursor
-// moves over the unordered list
-farm.addEventListener(
-  "mouseenter",
-  (event) => {
-    // highlight the mouseenter target
-    header.innerHTML = "wassup";
-  },
-  false,
-);
+document.getElementById("Cow").onmouseover = function() {mouseOverCow()};
+document.getElementById("Cow").onmouseout = function() {mouseOutCow()};
