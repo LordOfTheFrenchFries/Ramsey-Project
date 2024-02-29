@@ -1,12 +1,15 @@
-const test = document.getElementById("hoverTextHeader");
+const farm = document.getElementById("Farm");
+const cow = document.getElementById("Cow");
+
+const header = document.getElementById("hoverBoxHeader");
 
 // This handler will be executed only once when the cursor
 // moves over the unordered list
-test.addEventListener(
+farm.addEventListener(
   "mouseenter",
   (event) => {
     // highlight the mouseenter target
-    event.target.text = "wassup";
+    .target.text = "wassup";
   },
   false,
 );
