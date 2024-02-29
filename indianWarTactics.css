@@ -15,6 +15,7 @@ html {
 .image {
 	width: 128px;
 	height: 128px;
+	top: 10px;
 
 	transition: transform 0.2s;
 }
