@@ -1,1 +1,13 @@
+html {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(221,160,221, 0.4);
+}
 
+#mainHeader {
+	border: 10px double lightpurple;
+	text-align: center;
+	font-family: 'Kanit', monospace;
+	font-size: 100px;
+	margin: -5px;
+}
