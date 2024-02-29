@@ -12,6 +12,13 @@ html {
 	height: 512px;
 }
 
+#hoverText {
+	border: 5px solid green;
+
+	width: 1024px;
+	height: 128px;
+}
+
 #mainHeader {
 	border: 10px double lightgreen;
 	text-align: center;
